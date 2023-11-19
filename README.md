@@ -19,7 +19,7 @@ Both jupyter notebooks EDA_01.ipynb anad EDA_02.ipynb create exploratory plots
 
 
 # DATA
-The data on the CPI can be accessed from the St.Louis Fed website. The S&P data  and VGT data can be accessed through Yahoo Finance. For each dataset, ensure the time period January 1st, 2010 to August 1, 2023, and the frequency is monthly. 
+The data on the CPI can be accessed from the St.Louis Fed website. The S&P data  and VGT data can be accessed through Yahoo Finance. For each dataset, ensure the time period is January 1st, 2010 to August 1, 2023, and the frequency is monthly. 
 
 **Data Dictionary**
 | Feature Name  | Description |
