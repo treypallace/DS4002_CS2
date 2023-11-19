@@ -32,6 +32,16 @@ The data on the CPI can be accessed from the St.Louis Fed website. The S&P data 
 
 | Image  | Description |
 | ------------- | ------------- |
+| SNPCPIScaled.png | This shows a graph of Close_SNP after being standardized with standard scaler with formula Close_SNP VS CPI. |
+| SNPVGI2vsCPI.png | This shows a graph of Close_SNP and Close_VGT combined into a new column with formula 0.25xClose_SNP + 0.75xClose_VGT VS CPI. |
+| SNPVGI3vsCPI.png | This shows a graph of Close_SNP and Close_VGT combined into a new column with formula 0.75xClose_SNP + 0.2 5xClose_VGT VS CPI. |
+| SNPVGIv4vsCPI.png | This shows a graph with an exponential fit and scaling of Close_SNP and Close_VGT combined into a new column with formula 0.75xClose_SNP + 0.2 5xClose_VGT VS CPI. |
+| SNPVGTCPIScaled.png | This shows a graph of Close_SNP and Close_VGT combined into a new column after being standardized with standard scaler with formula Close_SNP + Close_VGT VS CPI. |
+| SNPVGTvsCPI.png | This shows a graph of Close_SNP and Close_VGT combined into a new column with formula Close_SNP + Close_VGT VS CPI. |
+| SNPvsCPI.png | This shows a graph of Close_SNP with formula Close_SNP VS CPI. |
+| VGTCPIScaled.png | This shows a graph of Close_VGT after being standardized with standard scaler with formula Close_VGT VS CPI. |
+| VGTvsCPI.png | This shows a graph of Close_VGT with formula Close_VGT VS CPI. |
+| correlationGraphs.png | This shows a graph of a correlation matrix for features Close_SNP, Close_VGT, and CPI. |
 | snp_cpi_prophet_forecast.png  | This shows the forecast of the CPI with SNP as a predictor |
 | snp_vgt_cpi_prophet_forecast.png  | This shows the forecast of the CPI with SNP and VGT as a predictor|
 | stock_cpi_overtime_standardized.png  | This shows a plot of the SNP, VGT, and CPI overtime with standardized values. |
